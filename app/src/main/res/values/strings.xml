@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Real Time Mileage Tracker</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="sign_in_title">Sign in</string>
 </resources>

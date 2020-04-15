@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_white_gradiant">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_in_title"
+        android:text="@string/sign_in_title"
+        android:layout_centerHorizontal="true"
+        android:textSize="45dp"
+        android:fontFamily="@font/orkney_bold"
+        android:textColor="@color/midBlack"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_title"
+        android:layout_below="@id/sign_in_title"
+        android:text="Email Address"
+        android:textSize="22dp"
+        android:textColor="@color/midBlack"
+        android:layout_marginHorizontal="21dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"
+
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/username_title"
+        android:id="@+id/username_text_field"
+        android:fontFamily="@font/kayak_sans_regular"
+        android:textSize="20dp"
+        android:background="@drawable/login_box"
+        android:layout_marginHorizontal="15dp"
+        android:padding="15dp"
+        android:gravity="center_vertical"
+        android:text="Enter email"
+        android:textColor="@color/gray"
+        android:autofillHints="Enter email"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_title"
+        android:layout_below="@id/username_text_field"
+        android:text="Password"
+        android:textSize="22dp"
+        android:textColor="@color/midBlack"
+        android:layout_marginHorizontal="21dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/password_title"
+        android:id="@+id/password_text_field"
+        android:fontFamily="@font/kayak_sans_regular"
+        android:textSize="20dp"
+        android:background="@drawable/login_box"
+        android:layout_marginHorizontal="15dp"
+        android:padding="15dp"
+        android:gravity="center_vertical"
+        android:text="Enter password"
+        android:autofillHints="Enter Password"
+        android:textColor="@color/gray"
+        />
+</RelativeLayout>
